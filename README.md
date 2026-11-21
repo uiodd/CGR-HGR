@@ -1,6 +1,4 @@
 # CGR-HGR
-# Conflict-guided Heterogeneous Knowledge Graph for Multimodal ERC
-
 This repository contains the source code of our paper.
 
 ## Datasets
