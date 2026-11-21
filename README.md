@@ -21,13 +21,9 @@ We provide training commands aligned with the paper settings.
 
 ```bash
 # IEMOCAP
-bash exec_iemocap.sh
 
-# Or run directly
-python -u train.py --Dataset IEMOCAP --use-knowledge --use-graph \
-  --iemocap-path data/iemocap_multimodal_features.pkl \
-  --knowledge-path data/iemocap_features_comet.pkl
+python -u train.py --Dataset IEMOCAP --use-knowledge --use-graph 
 
 # MELD
-bash exec_meld.sh
+python -u train.py --Dataset MELD --use-knowledge --use-graph 
 ```
