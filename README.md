@@ -1,25 +1,21 @@
-# CGR-HGR
-This repository contains the source code of our paper.
+# Conflict-guided Heterogeneous Knowledge Graph for Multimodal ERC
 
-## Datasets
+This repository contains the source code of our paper, using the following datasets:
 
-- [IEMOCAP](https://drive.google.com/file/d/1y4xLSKicRHZCd7dsG5y75TFecvHHyY3Q/view?usp=drive_link)  
-  Download the preprocessed dataset and put it into `data/`.
+- [IEMOCAP](https://drive.google.com/file/d/1y4xLSKicRHZCd7dsG5y75TFecvHHyY3Q/view?usp=drive_link) — Download the preprocessed dataset and put it into `data/`.
+- [MELD](https://drive.google.com/file/d/1H8NAwW_ogxsFOQvCuesxiVqBqa8X19J-/view?usp=drive_link) — Download the preprocessed dataset and put it into `data/`.
 
-- [MELD](https://drive.google.com/file/d/1H8NAwW_ogxsFOQvCuesxiVqBqa8X19J-/view?usp=drive_link)  
-  Download the preprocessed dataset and put it into `data/`.
-
-## Installation
+## 1. Install requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Data Preparation
+## 2. Prepare datasets
 
-Download the preprocessed datasets and place them in the `data/` directory.
+Download the preprocessed datasets and put them into `data/`.
 
-## Training
+## Train
 
 We provide training commands aligned with the paper settings.
 
